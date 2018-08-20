@@ -101,8 +101,8 @@ if __name__ == '__main__':
     X_eq_x, X_less_x, X_leq_x, X_great_x, X_geq_x = binom_probs(float(p), int(nt), int(ns))
     
     print('Calculating binomial probabilities with p=%s; nt=%s; ns=%s ...' % (p, nt, ns))
-    print('P(X = x) = %s' % X_eq_x)
-    print('P(X < x) = %s' % X_less_x)
-    print('P(X <= x) = %s' % X_leq_x)
-    print('P(X > x) = %s' % X_great_x)
-    print('P(X >= x) = %s' % X_geq_x)
+    print('P(X = %s) = %s' % (ns, X_eq_x))
+    print('P(X < %s) = %s' % (ns, X_less_x))
+    print('P(X <= %s) = %s' % (ns, X_leq_x))
+    print('P(X > %s) = %s' % (ns, X_great_x))
+    print('P(X >= %s) = %s' % (ns, X_geq_x))
